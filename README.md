@@ -64,6 +64,14 @@ Het is uitdagender om jouw eigen stappenplan te maken, maar als je niet weet waa
 7. In de interface plaatsen we de methodes zonder uitwerking. Dus alleen het returntype, naam, datatypes van de parameters en de parameters van de methode.
 8. In de implementatie van de interface zetten we gehele methodes. Vergeet de `@Override` niet.
 
+### Spel logica
+
+Bij Pokemons is het zo dat het type bepalend is hoe zwaar de schade is. Hier onder een overzichtje voor een logica van schade, bij aanvallen.
+- Het type fire doet de meeste schade aan grass-pokemons, daarna aan water-pokemons, dan de electric-pokemons en het minste bij fire-pokemons.
+- Het type grass doet de meeste schade aan electric-pokemons, daarna aan fire-pokemons, dan de water-pokemons en het minste bij grass-pokemons.
+- Het type electric doet de meeste schade aan water-pokemons, daarna aan grass-pokemons, dan de fire-pokemons en het minste bij electric-pokemons.
+- Het type water doet de meeste schade aan fire-pokemons, daarna aan electric-pokemons, dan de grass-pokemons en het minste bij water-pokemons.
+
 
 ## Bonusopdrachten
 
