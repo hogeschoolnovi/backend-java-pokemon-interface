@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Methodes {
-    /*Voor de volgende 16 methodes geld dit zijn aanvallen*/
+    /*De volgende 16 methodes zijn aanvallen*/
     void surf(Pokemon name, Pokemon enemy);
 
     void fireLash(Pokemon name, Pokemon enemy);
@@ -34,7 +34,7 @@ public class Methodes {
 
     void voltTackle(Pokemon name, Pokemon enemy);
 
-    /*deze methode komt op meer plaatsen terug*/
+    /*deze methode komt op meerdere plaatsen terug*/
     List<String> getAttacks() {
         return attacks;
     }
@@ -43,7 +43,7 @@ public class Methodes {
         return Arrays.asList(getCharizard(), getBlastoise(), getDitto(), getGyarados(), getRaichu(), getVenusaur());
     }
 
-    /*Deze methodes mogen allemaal in implementatie van de interface*/
+    /*Deze methodes mogen allemaal in de implementatie van de interface*/
 
     public void enteredTheGym(PokemonTrainer player1) {
         PokemonGymOwner gymOwner = new PokemonGymOwner();
