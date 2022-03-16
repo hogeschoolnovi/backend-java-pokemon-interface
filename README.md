@@ -37,14 +37,13 @@ Let op: het is uitdagender om jouw eigen stappenplan te maken. Als je niet zo go
 1. Maak de volgende klassen aan:
    - Pokemon (`abstract`)
    - FirePokemon
+   - WaterPokemon
    - GrassPokemon
    - ElectricPokemon
-   - GrassPokemon
    - PokemonGym (`interface`)
    - PokemonGymImpl
    - PokemonGymOwner
    - PokemonTrainer
-   - WaterPokemon
 2. In de klasse Variabelen staan verschillende variabelen met tips. Plaats deze in de juiste klassen, die je zojuist hebt aangemaakt en geef ze de juiste datatypen.
 3. Geef alle variabelen getters en setters als ze in de juiste klasse staan.
 4. In de klasse Methodes staan de methodes die minimaal gebruikt moeten worden binnen de applicatie. Verplaats deze naar de juiste klassen.
