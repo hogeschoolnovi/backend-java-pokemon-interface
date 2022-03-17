@@ -11,7 +11,7 @@ te maken, maken we gebruik van één type per Pokémon). Voorbeelden van deze ty
 Electric ⚡. Daarnaast gaan we een gym maken en een trainer, zodat de applicatie interactief kan worden.
 
 Naast hun type, hebben Pokémon natuurlijk bepaalde eigenschappen met elkaar gemeen. Daarom maken we gebruik van een
-super klasse. Ook gaan we kijken naar overloading, polymorfisme en een interface.
+**super** klasse. Ook gaan we kijken naar overloading, polymorfisme en een interface.
 
 ![Pokemon!](./assets/pokemon.JPG)
 
