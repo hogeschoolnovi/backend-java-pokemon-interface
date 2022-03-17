@@ -19,7 +19,7 @@ Naast hun type, hebben Pokémon natuurlijk bepaalde eigenschappen met elkaar gem
 
 De applicatie moet voldoen aan het volgende:
 
-- Een `abstract` super klasse met minimaal 5 `private` `final`  variabelen,  5 `private` variabele, 1 constructor, 6 getters en 1 setter;
+- Een `abstract` super klasse met minimaal 5 `private` `final`  variabelen,  5 `private` variabelen, 1 constructor, 6 getters en 1 setter;
 - 4 subklassen die, naast alles dat ze erven, zelf ook minimaal 2 `private` `final` variabelen, 1 constructor, 4 methodes,  1 getter bevatten;
 - Een `main`-klasse met een `main`-methode;
 - Een `interface` met 11 methodes;
@@ -44,9 +44,9 @@ Let op: het is uitdagender om jouw eigen stappenplan te maken. Als je niet zo go
    - PokemonGymImpl
    - PokemonGymOwner
    - PokemonTrainer
-2. In de klasse Variabelen staan verschillende variabelen met tips. Plaats deze in de juiste klassen, die je zojuist hebt aangemaakt en geef ze de juiste datatypen.
+2. In de klasse `Variabelen` staan verschillende variabelen met tips. Plaats deze in de juiste klassen, die je zojuist hebt aangemaakt en geef ze de juiste datatypen.
 3. Geef alle variabelen getters en setters als ze in de juiste klasse staan.
-4. In de klasse Methodes staan de methodes die minimaal gebruikt moeten worden binnen de applicatie. Verplaats deze naar de juiste klassen.
+4. In de klasse `Methodes` staan de methodes die minimaal gebruikt moeten worden binnen de applicatie. Verplaats deze naar de juiste klassen.
 5. De aanval-methodes moeten de volgende eigenschappen hebben:
   - een `system.out.println` die vertelt wie wie aanvalt met welke aanval (concatenation met variabelen);
   - een beslissingstructuur die kijkt welk type de vijand heeft;
@@ -55,10 +55,10 @@ Let op: het is uitdagender om jouw eigen stappenplan te maken. Als je niet zo go
   - vergeet de hp van de vijand niet te verlagen;
   - sluit de methode af met een `system.out.println` die de resteren hp waarde weergeeft van de vijand
 6. De volgende methodes hebben nog een extra functie:
-  - rainDance heeft geen effect op electric Pokemons maar geeft een `system.out.println` met de boodschap: "has no effect on (vijand)";
-  - rainDance levert een hp boost aan vijanden grass-types;
-  - tunder levert een hp boost aan electric Pokemons;
-  - leechSeed trekt hp van de vijand af en geeft deze hp aan de aanvallende Pokémon terug;
+  - `rainDance` heeft geen effect op electric Pokemons maar geeft een `system.out.println` met de boodschap: "has no effect on (vijand)";
+  - `rainDance` levert een hp boost aan vijanden grass-types;
+  - `tunder` levert een hp boost aan electric Pokemons;
+  - `leechSeed` trekt hp van de vijand af en geeft deze hp aan de aanvallende Pokémon terug;
 7. Plaats de methodes in de interface plaatsen zonder uitwerking. Dus alleen het returntype, naam, datatypes van de parameters en de parameters van de methode.
 8. Plaats gehele methodes in de implementatie van de interface. Vergeet de `@Override` niet.
 
