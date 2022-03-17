@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Methodes {
-    /*Voor de volgende 16 methodes geld dit zijn aanvallen*/
+    /*De volgende 16 methodes zijn aanvallen*/
     void surf(Pokemon name, Pokemon enemy);
 
     void fireLash(Pokemon name, Pokemon enemy);
@@ -34,7 +34,7 @@ public class Methodes {
 
     void voltTackle(Pokemon name, Pokemon enemy);
 
-    /*deze methode komt op meer plaatsen terug*/
+    /*deze methode komt op meerdere plaatsen terug*/
     List<String> getAttacks() {
         return attacks;
     }
@@ -43,15 +43,15 @@ public class Methodes {
         return Arrays.asList(getCharizard(), getBlastoise(), getDitto(), getGyarados(), getRaichu(), getVenusaur());
     }
 
-    /*Deze methodes mogen allemaal in implementatie van de interface*/
+    /*Deze methodes mogen geïmplementeerd worden in de interface*/
 
     public void enteredTheGym(PokemonTrainer player1) {
         PokemonGymOwner gymOwner = new PokemonGymOwner();
         System.out.println("You have entered the gymOwner");
         System.out.println("In front of you stands a pokemontrainer");
-        System.out.println("Brock: Hello stranger, I'm " +gymOwner.getBrock().getName() + " the gymowner of the Oreburgh-gymOwner. Who are you?");
-        System.out.println("I'm " + player1.getName() + " and i'm here to challenge you for a battle");
-        System.out.println("So your after mine badge to, lets fight!!!");
+        System.out.println("Brock: Hello stranger, I'm " +gymOwner.getBrock().getName() + " the gym owner of the Oreburgh. Who are you?");
+        System.out.println("I'm " + player1.getName() + " and I'm here to challenge you for a battle");
+        System.out.println("So you are after my badge too, let's fight!!!");
 
         Pokemon gymPokemon = chooseGymPokemon(gymOwner);
         System.out.println(gymOwner.getBrock().getName() + ": I'll choose you, " + gymPokemon.getName());
@@ -83,9 +83,9 @@ public class Methodes {
         Scanner speler_A = new Scanner(System.in);
         while (pokemon.getHp() > 0 && gymPokemon.getHp() > 0) {
 
-            System.out.println("Its " + owner.getBrock().getName() + "'s turn to attack");
+            System.out.println("It's " + owner.getBrock().getName() + "'s turn to attack");
             gymOwnerAttacks(gymPokemon, pokemon);
-            System.out.println("Its " + trainer.getName() + "'s turn to attack");
+            System.out.println("It's " + trainer.getName() + "'s turn to attack");
             attackOrChange(pokemon, gymPokemon, trainer, owner);
 
         }
