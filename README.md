@@ -1,7 +1,7 @@
 ## Inleiding
 
 Je hebt geleerd hoe je relaties, overerving en abstracte klassen moet toepassen. Ook weet je nu meer over: access modifiers, keywords, overloading, klassen, methoden en nog veel meer. In het backend landschap
-worden deze concepten vaak uitgelegd aan de hand van dieren of andere levende wezens. In deze opdracht passen wij de concepten klassen en methoden toe op Pokémons!
+worden deze concepten vaak uitgelegd aan de hand van dieren of andere levende wezens. In deze opdracht passen wij de scope, overloading, keywords en interfaces toe op Pokémons!
 
 ## Opdrachtbeschrijving
 
@@ -65,14 +65,19 @@ Let op: het is uitdagender om jouw eigen stappenplan te maken. Als je niet zo go
 ### Spel logica
 
 Bij Pokémons is het zo dat het type bepalend is voor hoe zwaar de schade is. Hieronder vind je een overzichtje voor een logica van schade bij aanvallen:
-- Het type fire doet de meeste schade aan grass-pokémons, daarna aan water-pokémons, dan de electric-pokémons en het minste bij fire-pokémons.
-- Het type grass doet de meeste schade aan electric-pokémons, daarna aan fire-pokémons, dan de water-pokémons en het minste bij grass-pokémons.
-- Het type electric doet de meeste schade aan water-pokémons, daarna aan grass-pokémons, dan de fire-pokémons en het minste bij electric-pokémons.
-- Het type water doet de meeste schade aan fire-pokémons, daarna aan electric-pokémons, dan de grass-pokémons en het minste bij water-pokémons.
+- Het type fire🔥 doet de meeste schade aan grass-pokémons🌿, daarna aan water-pokémons🌊, dan de electric-pokémons⚡ en het minste bij fire-pokémons🔥.
+- Het type grass🌿 doet de meeste schade aan electric-pokémons⚡, daarna aan fire-pokémons🔥, dan de water-pokémons🌊 en het minste bij grass-pokémons🌿.
+- Het type electric⚡ doet de meeste schade aan water-pokémons🌊, daarna aan grass-pokémons🌿, dan de fire-pokémons 🔥en het minste bij electric-pokémons⚡.
+- Het type water🌊 doet de meeste schade aan fire-pokémons🔥, daarna aan electric-pokémons⚡, dan de grass-pokémons🌿 en het minste bij water-pokémons🌊.
 
 
 ## Bonusopdrachten
 
-1. Voeg de variabele ‘food’ met het juiste datatype toe aan de juiste klasse. Voeg ook een methode toe waarbij de hp van de Pokémon een boost krijgt wanneer hij gevoerd wordt.
-2. Pas het spel aan zodat je het pokémonvoedsel naar de Pokémon gooit, in plaats van een aanval doet. Als dit voedsel het juiste type is voor dit type Pokémon, zal het de Pokémon een boost geven. 
+1. Voeg de variabele ‘food’ met het juiste datatype toe aan de juiste klasse(n). Voeg ook een methode toe waarbij de hp van de Pokémon een boost krijgt wanneer hij gevoerd wordt.
+2. Pas het spel aan zodat je het pokémonvoedsel naar de Pokémon gooit voor een aanval, in plaats van een aanval doet. Als dit voedsel het juiste type is voor dit type Pokémon, zal het de Pokémon een boost geven. 
 3. Op dit moment kun je het spel oneindig spelen. Pas het spel aan zodat een Pokémon die geen hp meer heeft, niet meer gebruikt kan worden, tenzij het spel opnieuw wordt opgestart.
+
+
+## Tip
+
+Let goed op welke tips en advies Intellij je geeft!
