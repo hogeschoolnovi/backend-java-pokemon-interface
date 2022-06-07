@@ -48,10 +48,10 @@ Let op: het is uitdagender om jouw eigen stappenplan te maken. Als je niet zo go
 3. Geef alle variabelen getters en setters als ze in de juiste klasse staan.
 4. In de klasse `Methodes` staan de methodes die minimaal gebruikt moeten worden binnen de applicatie. Verplaats deze naar de juiste klassen.
 5. De aanval-methodes moeten de volgende eigenschappen hebben:
-  - een `system.out.println` die vertelt wie wie aanvalt met welke aanval (concatenation met variabelen);
+  - een `system.out.println` die vertelt wie wie aanvalt met welke aanval (concatenation met variabelen, b.v.: "Bulbasaur attacks Charizard with leafStorm");
   - een beslissingstructuur die kijkt welk type de vijand heeft;
   - aan de hand van de beslissingstructuur moet de vijand hp punten verliezen (per type verschilt het aantal punten);
-  - een `system.out.println` die aangeeft wat de aanval voor effect heeft;
+  - een `system.out.println` die aangeeft wat de aanval voor effect heeft (concatenation met variabelen, b.v.: "Charizard looses 15 hp");
   - vergeet de hp van de vijand niet te verlagen;
   - sluit de methode af met een `system.out.println` die de resteren hp waarde weergeeft van de vijand
 6. De volgende methodes hebben nog een extra functie:
