@@ -46,15 +46,23 @@ public class Methodes {
     /*Deze methodes mogen geïmplementeerd worden in de interface*/
 
     public void enteredTheGym(PokemonTrainer player1) {
-        PokemonGymOwner gymOwner = new PokemonGymOwner();
-        System.out.println("You have entered the gymOwner");
+        PokemonGymOwner gymOwner = new PokemonGymOwner("Brock");
+        List<Pokemon> names = new ArrayList<>();
+        names.add(gymOwner.getBlastoise());
+        names.add(gymOwner.getGyarados());
+        names.add(gymOwner.getCharizard());
+        names.add(gymOwner.getDitto());
+        names.add(gymOwner.getRaichu());
+        names.add(gymOwner.getVenusaur());
+        gymOwner.setPokemons(names);
+        System.out.println("You have entered the gym");
         System.out.println("In front of you stands a pokemontrainer");
-        System.out.println("Brock: Hello stranger, I'm " +gymOwner.getBrock().getName() + " the gym owner of the Oreburgh. Who are you?");
-        System.out.println("I'm " + player1.getName() + " and I'm here to challenge you for a battle");
-        System.out.println("So you are after my badge too, let's fight!!!");
+        System.out.println(gymOwner.getName() + ": Hello stranger, I'm " + gymOwner.getName() + ", the owner of this gym. Who are you?");
+        System.out.println("I'm " + player1.getName() + " and i'm here to challenge you for a battle");
+        System.out.println("So you're after my badge too, lets fight!!!");
 
         Pokemon gymPokemon = chooseGymPokemon(gymOwner);
-        System.out.println(gymOwner.getBrock().getName() + ": I'll choose you, " + gymPokemon.getName());
+        System.out.println(gymOwner.getName() + ": I'll choose you, " + gymPokemon.getName());
         Pokemon pokemon = choosePokemon(player1);
         System.out.println(player1.getName() + ": I'll choose you, " + pokemon.getName());
 
@@ -83,7 +91,7 @@ public class Methodes {
         Scanner speler_A = new Scanner(System.in);
         while (pokemon.getHp() > 0 && gymPokemon.getHp() > 0) {
 
-            System.out.println("It's " + owner.getBrock().getName() + "'s turn to attack");
+            System.out.println("It's " + owner.getName() + "'s turn to attack");
             gymOwnerAttacks(gymPokemon, pokemon);
             System.out.println("It's " + trainer.getName() + "'s turn to attack");
             attackOrChange(pokemon, gymPokemon, trainer, owner);
@@ -107,7 +115,7 @@ public class Methodes {
     public Pokemon chooseGymPokemon(PokemonGymOwner gymOwner){
         Random rand = new Random();
         List<Pokemon> pokemons = new ArrayList<>();
-        for (Pokemon p : gymOwner.getPokemonList()) {
+        for (Pokemon p : gymOwner.getPokemons()) {
             if(p.getHp() > 0 ){
                 pokemons.add(p);
             }
