@@ -51,7 +51,7 @@ Let op: het is uitdagender om jouw eigen stappenplan te maken. Als je niet zo go
   - een `system.out.println` die vertelt wie wie aanvalt met welke aanval (concatenation met variabelen, b.v.: "Bulbasaur attacks Charizard with leafStorm");
   - een beslissingstructuur die kijkt welk type de vijand heeft;
   - aan de hand van de beslissingstructuur moet de vijand hp punten verliezen (per type verschilt het aantal punten);
-  - een `system.out.println` die aangeeft wat de aanval voor effect heeft (concatenation met variabelen, b.v.: "Charizard looses 15 hp");
+  - een `system.out.println` die aangeeft wat de aanval voor effect heeft (concatenation met variabelen, b.v.: "Charizard loses 15 hp");
   - vergeet de hp van de vijand niet te verlagen;
   - sluit de methode af met een `system.out.println` die de resteren hp waarde weergeeft van de vijand
 6. De volgende methodes hebben nog een extra functie:
