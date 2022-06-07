@@ -1,4 +1,4 @@
-[## Inleiding
+## Inleiding
 
 Je hebt geleerd hoe je relaties, overerving en abstracte klassen moet toepassen. Ook weet je nu meer over: access modifiers, keywords, overloading, klassen, methoden en nog veel meer. In het backend landschap
 worden deze concepten vaak uitgelegd aan de hand van dieren of andere levende wezens. In deze opdracht passen wij de scope, overloading, keywords en interfaces toe op Pokémons!
@@ -80,4 +80,4 @@ Bij Pokémons is het zo dat het type bepalend is voor hoe zwaar de schade is. Hi
 
 ## Tip
 
-Let goed op welke tips en advies Intellij je geeft!](https://github.com/hogeschoolnovi/backend-java-pokemon-interface)
+Let goed op welke tips en advies Intellij je geeft!
