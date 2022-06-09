@@ -14,12 +14,13 @@ public class Variabelen {
     ditto;/*🌿*/
     raichu;/*⚡*/
     gyarados;/*🌊*/
-    PokemonTrainer brock;
     List<Pokemon> pokemons;
-    village;/*""*/
     int level;
     int hp;
     food;/*""*/
     sound;/*""*/
+    
+    /*deze variabele is optioneel. Je hoeft deze niet te definieren, maar als je hem definieert, dan moet je hem ook ergens gebruiken*/
+    village;/*""*/
 
 }
