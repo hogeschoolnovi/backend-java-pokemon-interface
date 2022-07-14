@@ -14,13 +14,11 @@ public class Variabelen {
     ditto;/*🌿*/
     raichu;/*⚡*/
     gyarados;/*🌊*/
-    List<Pokemon> pokemons;
+    List<Pokemon> pokemons  = Arrays.asList(/*voer de pokemons hier in*/);
     int level;
     int hp;
     food;/*""*/
     sound;/*""*/
-    
-    /*deze variabele is optioneel. Je hoeft deze niet te definieren, maar als je hem definieert, dan moet je hem ook ergens gebruiken*/
-    village;/*""*/
+    town;/*""*/
 
 }
