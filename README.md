@@ -15,16 +15,6 @@ Naast hun type, hebben Pokémon natuurlijk bepaalde eigenschappen met elkaar gem
 
 ![Pokemon!](./assets/pokemon.JPG)
 
-## Randvoorwaarden
-
-De applicatie moet voldoen aan het volgende:
-
-- Een `abstract` super klasse  met 5 `private` `final`  variabelen,  1 `private`variabele, 1 constructor, 6 getters en 1 setter;
-- 4 subklassen die, naast alles dat ze erven, zelf ook minimaal 2 `private` `final` variabelen, 1 constructor, 4 methodes, 1 getter bevatten.
-- Een `main`-klasse met een `main`-methode;
-- Een `interface` met 11 methodes
-- Een implementatie van de `interface` waarin alle methodes worden overschreven met een `@Override`
-- 2 normale klassen. Waarvan een klasse met 8 variabelen, constructor, getters en setters. De andere klasse extends de eerste klasse en heeft zelf nog 1 variabele, een getter, setter en een constructor die enkel de super aanroept. 
 
 ### Afwijking van werkwijze
 
@@ -71,6 +61,16 @@ Bij Pokémons is het zo dat het type bepalend is voor hoe zwaar de schade is. Hi
 - Het type electric⚡ doet de meeste schade aan water-pokémons🌊, daarna aan grass-pokémons🌿, dan de fire-pokémons 🔥en het minste bij electric-pokémons⚡.
 - Het type water🌊 doet de meeste schade aan fire-pokémons🔥, daarna aan electric-pokémons⚡, dan de grass-pokémons🌿 en het minste bij water-pokémons🌊.
 
+## Randvoorwaarden
+
+De applicatie moet voldoen aan het volgende:
+
+- Een `abstract` super klasse  met 5 `private` `final`  variabelen,  1 `private`variabele, 1 constructor, 6 getters en 1 setter;
+- 4 subklassen die, naast alles dat ze erven, zelf ook minimaal 2 `private` `final` variabelen, 1 constructor, 4 methodes, 1 getter bevatten.
+- Een `main`-klasse met een `main`-methode;
+- Een `interface` met 11 methodes
+- Een implementatie van de `interface` waarin alle methodes worden overschreven met een `@Override`
+- 2 normale klassen. Waarvan een klasse met 8 variabelen, constructor, getters en setters. De andere klasse extends de eerste klasse en heeft zelf nog 1 variabele, een getter, setter en een constructor die enkel de super aanroept. 
 
 
 ## Stappenplan
