@@ -93,7 +93,6 @@ Let op: het is uitdagender om jouw eigen stappenplan te maken. Als je niet zo go
 4. Doe hetzelfde voor [Methodes.java](./src/Methodes.java).
 5. Implementeer de aanval methodes zoals hierboven beschreven. Let daarbij ook op de bijzondere gevallen `raindance`, `thunder` en `leechSeed`.
 6. Plaats de methodes in de interface plaatsen zonder uitwerking. Dus alleen het returntype, naam, datatypes van de parameters en de parameters van de methode.
-7. Plaats gehele methodes in de implementatie van de interface. Vergeet de `@Override` niet.
 
 
 ## Bonusopdrachten
