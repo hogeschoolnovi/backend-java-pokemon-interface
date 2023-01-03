@@ -5,7 +5,7 @@ worden deze concepten vaak uitgelegd aan de hand van dieren of andere levende we
 
 ## Opdrachtbeschrijving
 
-Je gaat een applicatie programmeren waarmee een speler via de commandline een spel kan spelen. Degenen die bekend zijn met Pokèmon weten
+Je gaat een applicatie programmeren waarmee een speler via de commandline een spel kan spelen. Degenen die bekend zijn met Pokémon weten
 dat deze altijd een _type_ hebben (sterker nog: Pokémon kunnen meerdere types tegelijk zijn, maar om het niet te moeilijk
 te maken, maken we gebruik van één type per Pokémon). Voorbeelden van deze typen zijn: Fire 🔥, Water 🌊, Grass 🌿 en
 Electric ⚡. Daarnaast gaan we een gym maken en een trainer, zodat de applicatie interactief kan worden.
@@ -25,35 +25,35 @@ applicatie in elkaar te zetten. Jullie krijgen daarom een deel van de code van
 ons. Jullie krijgen de Main klasse en de PokemonGym klasse.
 Deze twee klassen hoeven jullie niet meer aan te passen.
 Ze staan echter wel vol met foutmeldingen. Deze foutmeldingen mogen jullie weg werken
-door klassen, methodes, variabelen, abstracte klassen en interfaces te maken (en soms een import)
+door klassen, methodes, variabelen, abstracte klassen en interfaces te maken (en soms een import).
 De code in de PokemonGym   
-De Methodes en Variabelen klasses bevatten hints voor deze opdracht en zullen verder
+De Methodes en Variabelen klassen bevatten hints voor deze opdracht en zullen verder
 geen deel uitmaken van de uiteindelijke applicatie.
 
 #### Klassen naamgeving
 
-Omdat we de belangrijkste functionaliteit al voor je hebben uitgewerkt, is het belangrijk dat je jou
+Omdat we de belangrijkste functionaliteit al voor je hebben uitgewerkt, is het belangrijk dat je jouw
 klassen de juiste namen geeft. Kijk daarom goed in [Methodes.java](./src/Methodes.java), [Main.java](./src/Main.java) en [PokemonGymImpl.java](./src/PokemonGymImpl.java). 
 Daar worden alle klassenamen gebruikt.
 Door de methodes in [Main](./src/Main.java) en [PokemonGymImpl](./src/PokemonGymImpl.java) 
-goed te lezen, kun je voor de meeste methodes en variabelen al af leiden in welke klassen die moeten komen te staan.
+goed te lezen, kun je voor de meeste methodes en variabelen al afleiden in welke klassen die moeten komen te staan.
 
 #### Methodes en variabelen verdelen
 
-In deze opdracht hoef je zelf geen methodes of variabelen te bedenken (tenminste, niet totdat je aan de bonusopdrachten gaat werken). 
+In deze opdracht hoef je zelf geen methodes of variabelen te bedenken. (Tenminste, niet totdat je aan de bonusopdrachten gaat werken.) 
 We hebben bijna alle methodes al voor je in [Methodes.java](./src/Methodes.java) gezet, behalve getters en setters.
 De methodes die hier niet staan, waaronder constructors, kun je afleiden uit [Main](./src/Main.java) en [PokemonGymImpl](./src/PokemonGymImpl.java).
-We hebben een aantal variabelen die je nodig hebt beschreven in [Variabelen.java](./src/Variabelen.java), 
+We hebben een aantal variabelen die je nodig hebt, beschreven in [Variabelen.java](./src/Variabelen.java), 
 maar je kunt ze ook afleiden uit de getters, setters en constructors die in [Main](./src/Main.java) en [PokemonGymImpl](./src/PokemonGymImpl.java) worden aangeroepen.
 Het enige wat je nog moet doen is de methodes en variabelen in de juiste klasse(n) zetten. 
 De variabelen uit [Variabelen.java](./src/Variabelen.java) moet je meestal nog een type geven en instantiëren, maar bij sommigen hebben we dat ook al gedaan.
 
 ### De aanval methodes
 
-De aanval-methodes moeten de volgende eigenschappen hebben:
+De aanval methodes moeten de volgende eigenschappen hebben:
 - een `system.out.println` die vertelt wie wie aanvalt met welke aanval (concatenation met variabelen, b.v.: "Bulbasaur attacks Charizard with leafStorm");
-- een beslissingstructuur die kijkt welk type de vijand heeft;
-- aan de hand van de beslissingstructuur moet de vijand hp punten verliezen (per type verschilt het aantal punten);
+- een beslissingsstructuur die kijkt welk type de vijand heeft;
+- aan de hand van de beslissingsstructuur moet de vijand hp punten verliezen (per type verschilt het aantal punten);
 - een `system.out.println` die aangeeft wat de aanval voor effect heeft (concatenation met variabelen, b.v.: "Charizard loses 15 hp");
 - vergeet de hp van de vijand niet te verlagen;
 - sluit de methode af met een `system.out.println` die de resteren hp waarde weergeeft van de vijand;
@@ -78,10 +78,10 @@ Bij Pokémons is het zo dat het type bepalend is voor hoe zwaar de schade is. Hi
 De applicatie moet voldoen aan het volgende:
 
 - Een `abstract` super klasse  met 5 `private` `final`  variabelen,  1 `private`variabele, 1 constructor, 6 getters en 1 setter;
-- 4 subklassen die, naast alles dat ze erven, zelf ook minimaal 2 `private` `final` variabelen, 1 constructor, 4 methodes, 1 getter bevatten.
+- 4 subklassen die, naast alles dat ze erven, zelf ook minimaal 2 `private` `final` variabelen, 1 constructor, 4 methodes, 1 getter bevatten;
 - Een `main`-klasse met een `main`-methode;
-- Een `interface` met 11 methodes
-- Een implementatie van de `interface` waarin alle methodes worden overschreven met een `@Override`
+- Een `interface` met 11 methodes;
+- Een implementatie van de `interface` waarin alle methodes worden overschreven met een `@Override`;
 - 2 "normale" klassen. Waarvan een klasse met 8 variabelen, constructor, getters en setters. De andere klasse extends de eerste klasse en heeft zelf nog 1 variabele, een getter, setter en een constructor die enkel de super aanroept. 
 
 
@@ -104,4 +104,4 @@ Let op: het is uitdagender om jouw eigen stappenplan te maken. Als je niet zo go
 
 ## Tip
 
-Let goed op welke tips en advies Intellij je geeft!
+Let goed op welke tips en advies IntelliJ je geeft!
