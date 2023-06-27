@@ -26,7 +26,7 @@ ons. Jullie krijgen de Main klasse en de PokemonGym klasse.
 Deze twee klassen hoeven jullie niet meer aan te passen.
 Ze staan echter wel vol met foutmeldingen. Deze foutmeldingen mogen jullie weg werken
 door klassen, methodes, variabelen, abstracte klassen en interfaces te maken (en soms een import).
-De code in de PokemonGym   
+De code in de PokemonGym fungeert als een soort van "game engine". Deze code hoef je niet te begrijpen, maar het is leuk om te bestuderen.
 De Methodes en Variabelen klassen bevatten hints voor deze opdracht en zullen verder
 geen deel uitmaken van de uiteindelijke applicatie.
 
@@ -77,11 +77,12 @@ Bij Pokémons is het zo dat het type bepalend is voor hoe zwaar de schade is. Hi
 
 De applicatie moet voldoen aan het volgende:
 
+- Je mag geen code toevoegen, aanpassen of verwijderen uit de `Main` en `PokemonGymImpl` klassen, behalve de nodige imports.
 - Een `abstract` super klasse  met 5 `private` `final`  variabelen,  1 `private`variabele, 1 constructor, 6 getters en 1 setter;
 - 4 subklassen die, naast alles dat ze erven, zelf ook minimaal 2 `private` `final` variabelen, 1 constructor, 4 methodes, 1 getter bevatten;
-- Een `main`-klasse met een `main`-methode;
+- Een `Main`-klasse met een `main`-methode;
 - Een `interface` met 11 methodes;
-- Een implementatie van de `interface` waarin alle methodes worden overschreven met een `@Override`;
+- Een implementatie (-Impl) van de `interface` waarin alle methodes worden overschreven met een `@Override`;
 - 2 "normale" klassen. Waarvan een klasse met 8 variabelen, constructor, getters en setters. De andere klasse extends de eerste klasse en heeft zelf nog 1 variabele, een getter, setter en een constructor die enkel de super aanroept. 
 
 
