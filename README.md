@@ -83,7 +83,7 @@ De applicatie moet voldoen aan het volgende:
 - Een `Main`-klasse met een `main`-methode;
 - Een `interface` met 11 methodes;
 - Een implementatie (-Impl) van de `interface` waarin alle methodes worden overschreven met een `@Override`;
-- 2 "normale" klassen. Waarvan een klasse met 8 variabelen, constructor, getters en setters. De andere klasse extends de eerste klasse en heeft zelf nog 1 variabele, een getter, setter en een constructor die enkel de super aanroept. 
+- 2 "normale" klassen. Waarvan een klasse met minstens 2 variabelen, constructor, getters en setters. De andere klasse extends de eerste klasse en heeft zelf nog 1 variabele, een getter, setter en een constructor die enkel de super aanroept. 
 
 
 ## Stappenplan
